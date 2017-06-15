@@ -24,7 +24,6 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 /**
  * @author Maciej Szarlinski
  */
-@EnableDiscoveryClient
 @SpringBootApplication
 public class VisitsServiceApplication extends SpringBootServletInitializer {
 	
