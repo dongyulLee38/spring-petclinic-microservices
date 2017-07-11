@@ -20,8 +20,8 @@ public class FindbugsWarningsBySampleFirst {
     }
 
     private static void npAlwaysNullWRONG() {
-        final String value = null;
-        if (null != value & value.length() > 2) {
+        final String value = "";
+        if (null != value && value.length() > 2) {
             System.out.println(String.format("   - " + value));
         } else {
             System.out.println(String.format("   - value is invalid"));
