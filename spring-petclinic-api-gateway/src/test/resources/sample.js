@@ -37,7 +37,7 @@ driver.findElement(By.xpath('//*[@id="main-navbar"]/ul/li[2]/ul/li[1]/a')).click
 
 // 2-2. Check all owners are displayed
 driver.sleep(1000);
-check_owners();
+//check_owners();
 
 // 2-3. Click Jean Coleman
 driver.sleep(3000);
